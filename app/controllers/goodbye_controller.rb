@@ -4,6 +4,6 @@ class GoodbyeController < ApplicationController
   protect_from_forgery with: :exception
 
   def goodbye
-  	render text: "Goodby, World!"
+  	render text: "Goodbye, World!"
   end
 end
